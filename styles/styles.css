@@ -1,0 +1,71 @@
+@media screen {
+  body{
+    background-color: hsl(217, 54%, 11%);
+  }
+}
+
+@media screen {
+  p{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(0, 0%, 100%);
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+
+
+/* mother code to postition box with information */
+.boxRetainer {
+  width: auto;
+  height: 1040px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 425px;
+  height: 750px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cube{
+  position: relative;
+  width: 360px;
+  border-radius: 15px;
+  align-self: center;
+  margin: 15px 15px 15px 15px;
+}
+
+.boxImage{
+  width: 24em;
+  border-radius: 15px;
+  align-self: center;
+}
+
+.name{
+  display: flex;
+}
+
+.name>h3{
+  font-family: 'Outfit', sans-serif;
+  color: hsl(0, 0%, 100%);
+}
+
+.description{
+  display: flex;
+}
+
+
+.contents{
+  display: flex;
+}
+
+
+footer{
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
